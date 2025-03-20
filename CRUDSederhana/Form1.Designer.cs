@@ -33,6 +33,11 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.txtNIM = new System.Windows.Forms.TextBox();
+            this.txtNama = new System.Windows.Forms.TextBox();
+            this.txtEmail = new System.Windows.Forms.TextBox();
+            this.txtTelepon = new System.Windows.Forms.TextBox();
+            this.txtAlamat = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -80,11 +85,51 @@
             this.label5.TabIndex = 4;
             this.label5.Text = "Alamat";
             // 
+            // txtNIM
+            // 
+            this.txtNIM.Location = new System.Drawing.Point(149, 30);
+            this.txtNIM.Name = "txtNIM";
+            this.txtNIM.Size = new System.Drawing.Size(420, 22);
+            this.txtNIM.TabIndex = 5;
+            // 
+            // txtNama
+            // 
+            this.txtNama.Location = new System.Drawing.Point(149, 78);
+            this.txtNama.Name = "txtNama";
+            this.txtNama.Size = new System.Drawing.Size(420, 22);
+            this.txtNama.TabIndex = 6;
+            // 
+            // txtEmail
+            // 
+            this.txtEmail.Location = new System.Drawing.Point(149, 132);
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Size = new System.Drawing.Size(420, 22);
+            this.txtEmail.TabIndex = 7;
+            // 
+            // txtTelepon
+            // 
+            this.txtTelepon.Location = new System.Drawing.Point(149, 184);
+            this.txtTelepon.Name = "txtTelepon";
+            this.txtTelepon.Size = new System.Drawing.Size(420, 22);
+            this.txtTelepon.TabIndex = 8;
+            // 
+            // txtAlamat
+            // 
+            this.txtAlamat.Location = new System.Drawing.Point(149, 238);
+            this.txtAlamat.Name = "txtAlamat";
+            this.txtAlamat.Size = new System.Drawing.Size(420, 22);
+            this.txtAlamat.TabIndex = 9;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.txtAlamat);
+            this.Controls.Add(this.txtTelepon);
+            this.Controls.Add(this.txtEmail);
+            this.Controls.Add(this.txtNama);
+            this.Controls.Add(this.txtNIM);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -105,6 +150,11 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox txtNIM;
+        private System.Windows.Forms.TextBox txtNama;
+        private System.Windows.Forms.TextBox txtEmail;
+        private System.Windows.Forms.TextBox txtTelepon;
+        private System.Windows.Forms.TextBox txtAlamat;
     }
 }
 
